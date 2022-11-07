@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A5C5B0;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 9px 11px 10px rgba(0, 0, 0, 0.212);
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+
+    
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 200em;
+    
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+    
+    
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    color: #3B3897;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #ffe4e4;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #D6DCD8;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #557570;
+}
+
+.label-float label {
+   color: #D39A89;
+   pointer-events: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-top: 13px;
+   transition: all .4s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label
+ {
+    
+    font-size: 13px;
+    margin-top: 0;
+    color: #557570;
+}
+
+.bottom-entrar button{
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #F1BEBE;
+  padding: 0.42rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bottom-entrar button:hover {
+    background-color: #D39A89;
+}
+
+.bottom-entrar button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+#verSenha {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+  
+  p{
+    color: #3B3897;
+    font-size: 14pt;
+    text-align: center;
+  }
+  
+  a{
+    color: #557570;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+  }
+  
+  a:hover{
+    color: #A5C5B0;
+  }
+
+  @media screen and (max-width: 1330px) {
+    .form-image {
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+}

@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    position: relative;
+    transition: all 1s ease-in-out;
+    box-sizing: border-box;
+}
+
+
+.menu1{
+    box-sizing: border-box;
+    background-color: #A5C5B0;
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid black;
+}
+.menu2{
+    box-sizing: border-box;
+    background-color: #A5C5B0;
+    width: 100%;
+    height: 10%;
+
+}
+
+#logo-menu{
+
+}
+.luparesponsiva{
+    justify-content: end;  
+    display: flex;
+    padding-right: 18rem;
+}
+.luparesponsiva img{
+    max-width: 1.5rem;
+    max-height: 1.3rem;  
+}
+
+.menu1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;   
+}
+
+.menu1 a {
+    text-decoration:none; 
+    letter-spacing: 0.1rem; 
+    font-size: 1.2em;
+    margin: 0.4rem;
+    color: #D39A89;
+}
+
+.forms{
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+#form-entrar{
+    padding-right: 3rem;
+}
+
+hr{
+    
+}
