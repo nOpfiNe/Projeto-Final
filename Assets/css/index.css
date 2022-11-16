@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
 }
+
+/*menu1 ate a linha 98*/
 
 #home{
     position: relative;
@@ -98,6 +103,8 @@ hr{
     border-top: 0.2rem solid #000000;  
 }
 
+/*menu2 ate a linha 165*/
+
 .menu2{
     box-sizing: border-box;
     display: flex;
@@ -157,11 +164,15 @@ hr{
     transition: 0.3s;
 }
 
+/*Carousel ate a linha 173*/
+
 #carouselExampleIndicators{
     padding-top: 3.5rem;
     box-shadow: rgb(0 0 0 / 16%) 0 0.1875rem 0.25rem 0;
      
 }
+
+/*Livros Populares ate a linha 250*/
 
 .Livros-populares h1{
     padding-top: 2.3rem;
@@ -169,27 +180,335 @@ hr{
     letter-spacing: 0.1rem;
     margin: 0.4rem;
     font-size: 2.2rem;
-    padding-bottom: 1.9rem;
-    
+    padding-bottom: 1.7em;
 }
 
 .livrop{
-    display: inline-block;
-
+   display: inline-block;
+   padding-left: 1.9em;
+   padding-right: 1.9em;
 }
 
-.livrod{
-    display: inline-block;
+#livrop-esquerda{
+    padding-left: 7.2em;
+}
+
+.livrop img{
+    box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    height:41vh;
+    transition : 0.8s;
+}
+
+.livrop img:hover{
+    transition: 1s;
+    height: 45vh;
+}
+
+.livrop button{
+    font-family: Playfair Display SC;
+    font-weight: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #a5c5b0;
+    padding: 0 1.6rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    border-radius: 8em;
+    transition : 0.8s;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: .9rem;
+    margin-left: 2.1rem;
+}
+
+.livrop button:hover{  
+    transition : .8s;
+    padding: .4rem 1rem;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #a5c5b0;
+    border: solid 1px #f1bebe;
+}
+
+.livrop p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+#jk{
+   margin-right: 2.1rem;
+}
+
+#hp{
+    padding-right: 0;
+}
+
+/*Livros Em Promoção ate a linha 314*/
+
+.Livros-promoção h1{
+    padding-top: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.7em;
 }
 
 .livroep{
-    display: inline-block;
+   display: inline-block;
+   padding-left: 1.9em;
+   padding-right: 1.9em;
+}
+
+#livroep-esquerda{
+    padding-left: 7.2em;
+}
+
+.livroep img{
+    box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    height:41vh;
+    transition : 0.8s;
+}
+
+.livroep img:hover{
+    transition: 1s;
+    height: 45vh;
+}
+.livroep button{
+    font-family: Playfair Display SC;
+    font-weight: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #a5c5b0;
+    padding: 0 1.6rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    border-radius: 8em;
+    transition : 0.8s;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: .9rem;
+    margin-left: 2.1rem;
+}
+
+.livroep button:hover{  
+    transition : .8s;
+    padding: .4rem 1rem;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #a5c5b0;
+    border: solid 1px #f1bebe;
+}
+
+.livroep p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+/*Livros Indicações ate a linha 393*/
+
+.Livros-indicação h1{
+    padding-top: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.7em;
 }
 
 .livroi{
-    display: inline-block;
-    padding-bottom: 3rem;
+   display: inline-block;
+   padding-left: 1.9em;
+   padding-right: 1.9em;
+   padding-bottom: 3rem;
 }
+
+#livroi-esquerda{
+    padding-left: 6.1em;
+}
+
+.livroi img{
+    box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    height:41vh;
+    transition : 0.8s;
+}
+
+.livroi img:hover{
+    transition: 1s;
+    height: 45vh;
+}
+
+.livroi button{
+    font-family: Playfair Display SC;
+    font-weight: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #a5c5b0;
+    padding: 0 1.6rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    border-radius: 8em;
+    transition : 0.8s;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: .9rem;
+    margin-left: 2.1rem;
+}
+
+.livroi button:hover{  
+    transition : .8s;
+    padding: .4rem 1rem;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #a5c5b0;
+    border: solid 1px #f1bebe;
+}
+
+.sh{
+    margin-right: 0rem;
+    margin-left: 0;
+}
+
+.livroi p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+/*Livros Destaques ate a linha 463*/
+
+.Livros-destaque h1{
+    padding-top: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.7em;
+}
+
+.livrod{
+   display: inline-block;
+   padding-left: 1.9em;
+   padding-right: 1.9em;
+   padding-bottom: 3rem;
+}
+
+#livrod-esquerda{
+    padding-left: 6em;
+}
+
+.livrod img{
+    box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    height:41vh;
+    transition : 0.8s;
+}
+
+.livrod img:hover{
+    transition: 1s;
+    height: 45vh;
+}
+
+.livrod button{
+    font-family: Playfair Display SC;
+    font-weight: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #a5c5b0;
+    padding: 0 1.6rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    border-radius: 8em;
+    transition : 0.8s;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: .9rem;
+    margin-left: 2.1rem;
+}
+
+.livrod button:hover{  
+    transition : .8s;
+    padding: .4rem 1rem;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #a5c5b0;
+    border: solid 1px #f1bebe;
+}
+
+.livrod p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+/*Seção de Livros ate a linha */
+
+.caixa-livro{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #F4E6D0;
+    height: 110vh;
+    margin-bottom: 6em;
+}
+
+.caixa-livro h1{
+    padding-top: 2.3rem;
+    padding-left: 2rem;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    font-size: 2.2rem;
+    display: inline-block;
+}
+.livros{
+    
+}
+
+.livros img{
+    display: inline-block;
+    width: 10%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 6px 6px 6px;
+}
+
+.estante{
+    border: 3px solid white;
+    border-radius: 0.2rem;
+    height: 2.9vh;
+    background-color: white;
+    margin: 0 4em 0 29em;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+
+.estante2{
+    border: 3px solid white;
+    border-radius: 0.2rem;
+    height: 2.9vh;
+    background-color: white;
+    margin: 0 31em 0 4em;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/*Footer1 ate a linha */
 
 .footer1{
     box-sizing: border-box;
@@ -247,6 +566,8 @@ hr{
     transition: 0.3s;
 }
 
+/*Footer2 ate a linha */
+
 .footer2{
     box-sizing: border-box;
     display: flex;
@@ -261,6 +582,8 @@ hr{
     padding-top: 0.3rem;
     padding-right: 1rem;
 }
+
+/*Setinha para cima ate a linha */
 
 .voltar-topo {
     position: fixed;
