@@ -206,6 +206,18 @@ hr{
     height: 45vh;
 }
 
+.livrop a{
+    text-decoration:none; 
+    list-style: none;
+    color: #fff;
+}
+
+.livrop a:hover{  
+    color: #a5c5b0;
+   
+}
+
+
 .livrop button{
     font-family: Playfair Display SC;
     font-weight: 0;
@@ -223,7 +235,7 @@ hr{
     align-items: center;
     cursor: pointer;
     margin-top: .9rem;
-    margin-left: 2.1rem;
+    margin-left: 2.1rem;   
 }
 
 .livrop button:hover{  
