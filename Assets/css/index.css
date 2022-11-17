@@ -465,13 +465,16 @@ hr{
 /*Seção de Livros ate a linha */
 
 .caixa-livro{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    background-color: #F4E6D0;
     height: 110vh;
     margin-bottom: 6em;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .caixa-livro h1{
+    
     padding-top: 2.3rem;
     padding-left: 2rem;
     letter-spacing: 0.1rem;
@@ -479,9 +482,7 @@ hr{
     font-size: 2.2rem;
     display: inline-block;
 }
-.livros{
-    
-}
+
 
 .livros img{
     display: inline-block;
