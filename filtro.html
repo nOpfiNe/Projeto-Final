@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Books</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="logo icon" href="menu/logo.png" >
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/filtro.css" rel="stylesheet"></link>
+
+    <!-- Scripts -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Progressbar -->
+    <script src="js/progressbar.min.js"></script>
+</head>
+
+<body>
+    <header id="home">  
+        
+        <nav class="menu1">
+            <img href="#home" id="logo-menu" src="menu/logo.png" alt="Logo">
+
+            <div class="search-box">
+                <input type="text" class="search-text" placeholder="Pesquisar..."></input>
+                <a class="search-btn">
+                    <i id="lupa" class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+
+            <ul class="forms">
+                <li><a id="form-cadastro" href="cadastro.html">Cadastra-se</a></li>
+                <li><a>ou</a></li>
+                <li><a id="form-entrar" href="entrar.html">Entrar</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <nav class="menu2">
+            <ul>
+                <li><a id="" href="#home">Home</a></li>
+                <li><a id="" href="">Livros</a></li>
+                <li><a id="" href="">Quem somos</a></li>
+                <li><a id="" href="">Dicas de redação</a></li>
+                
+            </ul>
+
+            <div class="img-menu">
+                <img href="" src="menu/filtro.png" alt="Filtro">
+                <img href="" src="menu/coracao.png" alt="Favoritos">
+            </div>
+        </nav>            
+    </header>  
+
+    <main>
+
+    <!-- Portifólio -->
+    <div id="portifolio-area"></div>
+    <div class="container"></div>
+    <div class="row"></div>
+    <div class="col-md-12">
+        <h3 class="main-title"> Filtre seu estilo de livro favorito</h3>
+    </div>
+    <div class="col-md-12" id="filter-btn-box">
+        <button class="main-btn filter-btn" id="rom-btn"> Romance </button>
+        <button class="main-btn filter-btn" id="fic-btn"> Ficção </button>
+        <button class="main-btn filter-btn" id="fan-btn"> Fantasia </button>
+        <button class="main-btn filter-btn" id="com-btn"> Comédia </button>
+        <button class="main-btn filter-btn" id="aca-btn"> Ação / Aventura </button>
+        <button class="main-btn filter-btn" id="ter-btn"> Terror </button>
+        <button class="main-btn filter-btn active" id="all-btn"> Todos </button>
+    </div>
+
+<!-- Livros Romance --> 
+<div class="caixa-romance">
+    <nav class="Livros-romance">
+
+        <div class="livro rom" id="livrorom-esquerda">
+            <span>
+                <img href="" class="" src="imagens/amor_&_gelato.jpg" alt="livro-romance">
+            </span>
+    
+            <div>
+                <strong><p>Amor & Gelato</p></strong>
+                <p>Jenna Evans Welch</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro rom">
+            <span>
+                <img href="" class="" src="imagens/teto_para_dois.jpg" alt="livro-romance">
+            </span>
+    
+            <div>
+                <strong><p>Teto para dois</p></strong>
+                <p>Beth O'Leary</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro rom">
+            <span>
+                <img href="" class="" src="imagens/uma_farsa_de_amor_na_espanha.jpg" alt="livro-romance">
+            </span>
+    
+            <div>
+                <strong><p>Uma Farça de Amor na Espanha</p></strong>
+                <p>Elena Armas</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro rom">
+            <span>
+                <img href="" class="" src="imagens/o_acordo.jpg" alt="livro-romance">
+            </span>
+    
+            <div>
+                <strong><p>O Acordo</p></strong>
+                <p>Elle Kennedy</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro rom">
+            <span>
+                <img href="" class="" src="imagens/a_hipotese_do_amor.jpg" alt="livro-romance">
+            </span>
+    
+            <div>
+                <strong><p class="sh">A Hipótese do Amor</p></strong>
+                <p class="sh">Ali Hazelwood</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+        
+    </nav>
+</div>
+<!-- Livros Romance --> 
+
+
+<!-- Livros Ficção--> 
+<div class="caixa-ficçao">
+    <nav class="Livros-ficçao">
+
+        <div class="livro fic" id="livrofic-esquerda">
+            <span>
+                <img href="" class="" src="imagens/os_sete_maridos_de_evelyn_hugo.jpg" alt="livro-ficçao">
+            </span>
+    
+            <div>
+                <strong><p>Os Sete Maridos de Evelyn Hugo</p></strong>
+                <p>Taylor Jenkins Reid</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fic">
+            <span>
+                <img href="" class="" src="imagens/breaking_legacies.jpg" alt="livro-ficçao">
+            </span>
+    
+            <div>
+                <strong><p>Breaking Legacies</p></strong>
+                <p>Zoe Reed</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fic">
+            <span>
+                <img href="" class="" src="imagens/o_conto_da_aia.jpg" alt="livro-ficçao">
+            </span>
+    
+            <div>
+                <strong><p>O Conto da Aia</p></strong>
+                <p>Margaret Atwood</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fic">
+            <span>
+                <img href="" class="" src="imagens/sobre_os_ossos_dos_mortos.jpg" alt="livro-ficçao">
+            </span>
+    
+            <div>
+                <strong><p>Sobre os Ossos dos Mortos</p></strong>
+                <p>Olga Tokarczuk</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fic">
+            <span>
+                <img href="" class="" src="imagens/of_fire_and_stars.jpg" alt="livro-ficçao">
+            </span>
+    
+            <div>
+                <strong><p class="sh">Of Fire and Stars</p></strong>
+                <p class="sh">Audrey Coulthurst</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+        
+    </nav>
+</div>
+<!-- Livros Ficção --> 
+
+
+<!-- Livros Fantasia --> 
+<div class="caixa-fantasia">
+    <nav class="Livros-fantasia">
+
+        <div class="livro fan" id="livrofan-esquerda">
+            <span>
+                <img href="" class="" src="imagens/a_rainha_vermelha.jpg" alt="Livros-fantasia">
+            </span>
+    
+            <div>
+                <strong><p>A rainha Vermelha</p></strong>
+                <p>Victoria Aveyard</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fan">
+            <span>
+                <img href="" class="" src="imagens/o_principe_cruel.jpg" alt="livro-fantasia">
+            </span>
+    
+            <div>
+                <strong><p>O Príncipe Cruel</p></strong>
+                <p>Holly Black</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fan">
+            <span>
+                <img href="" class="" src="imagens/diadema_de_ouro.jpg" alt="livro-fantasia">
+            </span>
+    
+            <div>
+                <strong><p>Diadema de Ouro</p></strong>
+                <p>Gabriela Costa</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fan">
+            <span>
+                <img href="" class="" src="imagens/a_lagrima_de_vidro.jpg" alt="livro-fantasia">
+            </span>
+    
+            <div>
+                <strong><p>A Lágrima de Vidro</p></strong>
+                <p>Gabriela Costa</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro fan">
+            <span>
+                <img href="" class="" src="imagens/a_vida_invisivel_de_addie_larue.jpg" alt="livro-fantasia">
+            </span>
+    
+            <div>
+                <strong><p class="sh">A Vida Invisível de Addie Larue</p></strong>
+                <p class="sh">V. E. Schwab</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+        
+    </nav>
+</div>
+<!-- Livros Fantasia --> 
+
+
+<!-- Livros Comédia --> 
+<div class="caixa-comedia">
+    <nav class="Livros-comedia">
+
+        <div class="livro com" id="livrorom-esquerda">
+            <span>
+                <img href="" class="" src="imagens/comédias_brasileiras_de_verão.jpg" alt="livro-comedia">
+            </span>
+    
+            <div>
+                <strong><p>Comédias Brasileiras de Verão</p></strong>
+                <p>Luís Fernando Veríssimo</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro com">
+            <span>
+                <img href="" class="" src="imagens/cade_voce_bernadette.jpg" alt="livro-comedia">
+            </span>
+    
+            <div>
+                <strong><p>Cadê você Bernadette?</p></strong>
+                <p>Maria Semple</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro com">
+            <span>
+                <img href="" class="" src="imagens/a_mandrágora.jpg" alt="livro-comedia">
+            </span>
+    
+            <div>
+                <strong><p>A Mandrágora</p></strong>
+                <p>Nicolau Maquiavel</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro com">
+            <span>
+                <img href="" class="" src="imagens/conto_do_inverno.jpg" alt="livro-comedia">
+            </span>
+    
+            <div>
+                <strong><p>Conto de Inverno</p></strong>
+                <p>William Shakespeare</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro com">
+            <span>
+                <img href="" class="" src="imagens/the-comedy_bible.jpg" alt="livro-comedia">
+            </span>
+    
+            <div>
+                <strong><p class="sh">Breves Respostas...</p></strong>
+                <p class="sh">Judy Carter</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+        
+    </nav>
+</div>
+<!-- Livros Comédia --> 
+
+
+<!-- Livros Ação/Aventura --> 
+<div class="caixa-açao">
+    <nav class="Livros-açao">
+
+        <div class="livro aca" id="livroaca-esquerda">
+            <span>
+                <img href="" class="" src="imagens/a_maquina_do_tempo.jpg" alt="livro-açao">
+            </span>
+    
+            <div>
+                <strong><p>A Máquina do Tempo</p></strong>
+                <p>H. G. Wells</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro aca">
+            <span>
+                <img href="" class="" src="imagens/a_vida_e_as_aventuras_de_Robinson_Crusoé.jpg" alt="livro-açao">
+            </span>
+    
+            <div>
+                <strong><p>A Vida e as Aventuras de</p></strong>
+                <strong><p>Robinson Crusoé</p></strong>
+                <p>Daniel Defoe</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro aca">
+            <span>
+                <img href="" class="" src="imagens/dom_quixote.jpg" alt="livro-açao">
+            </span>
+    
+            <div>
+                <strong><p>Dom Quixote</p></strong>
+                <p>Miguel de Cervantes</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro aca">
+            <span>
+                <img href="" class="" src="imagens/uma_dobra_no_tempo.jpg" alt="livro-açao">
+            </span>
+    
+            <div>
+                <strong><p>Uma Dobra no Tempo</p></strong>
+                <p>Madeleine L'Engles</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro aca">
+            <span>
+                <img href="" class="" src="imagens/jogos_vorazes.jpg" alt="livro-açao">
+            </span>
+    
+            <div>
+                <strong><p class="sh">Jogos Vorazes</p></strong>
+                <p class="sh">Suzanne Collins</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+        
+    </nav>
+</div>
+<!-- Livros Ação/Aventura --> 
+
+
+<!-- Livros Terror --> 
+<div class="caixa-terror">
+    <nav class="Livros-terror">
+
+        <div class="livro ter" id="livroter-esquerda">
+            <span>
+                <img href="" class="" src="imagens/it__a_coisa.jpg" alt="livro-terror">
+            </span>
+    
+            <div>
+                <strong><p>It a Coisa</p></strong>
+                <p>Stephen King</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro ter">
+            <span>
+                <img href="" class="" src="imagens/o-exorsista.jpg" alt="livro-terror">
+            </span>
+    
+            <div>
+                <strong><p>O Exorcista</p></strong>
+                <p>William Peter Blatty</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro ter">
+            <span>
+                <img href="" class="" src="imagens/o_colecionador.jpg" alt="livro-terror">
+            </span>
+    
+            <div>
+                <strong><p>O Colecionador</p></strong>
+                <p>John Fowles</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro ter">
+            <span>
+                <img href="" class="" src="imagens/a_assombraçao_da_cas_da_colina.jpg" alt="livro-terror">
+            </span>
+    
+            <div>
+                <strong><p>A Assombração da Casa</p></strong>
+                <strong><p>da Colina</p></strong>
+                <p>Shirley Jackson</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+
+        <div class="livro ter">
+            <span>
+                <img href="" class="" src="imagens/bird_box.jpg" alt="livro-terror">
+            </span>
+    
+            <div>
+                <strong><p class="sh">Bird Box</p></strong>
+                <p class="sh">Josh Malerman</p>
+            </div>
+            <button type="autofocus">Ver Livro</button>
+        </div>
+        
+    </nav>
+</div>
+<!-- Livros terror --> 
+
+    </main>
+
+
+    <footer>
+        <div class="footer1">
+            <img href="#home" class="logo-footer" src="menu/logo.png" alt="Logo">
+            <nav class="footer-list">
+                <ul>
+                    <li><a id="h" href="#home">Home</a></li>
+                    <li><a id="l" href="">Livros</a></li>
+                    <li><a id="qs" href="">Quem somos</a></li>
+                    <li><a id="ds" href="">Dicas de redação</a></li>
+                </ul>
+            </nav>
+
+            <div class="sociais">
+                <img href="" class="" src="footer/mail.png" alt="Email">
+                <img href="" class="" src="footer/github.png" alt="Github">
+                <img href="" class="" src="footer/instagram.png" alt="Instagram">
+            </div>
+        </div>
+
+        <div class="footer2">
+            <i class="fa-regular fa-copyright"></i>
+            <p>Todos os direitos reservados a Life Books e sua esquipe de desenvolvedores</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="voltar-topo"> <i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="js/filtro.js"></script>
+
+</body>
+</html>
