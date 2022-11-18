@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/*menu1 ate a linha 98*/
+
+#home{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #A5C5B0;
+}
+
+.menu1{
+    box-sizing: border-box;
+    background-color: #A5C5B0;
+    width: 100%;
+    height: 15vh; 
+}
+
+.menu1 ul {
+    list-style: none;
+    display: flex;
+    padding-left: 145vh;
+    padding-top: 5vh;
+    
+}
+
+.menu1 a {
+    text-decoration:none; 
+    letter-spacing: 0.1rem; 
+    font-size: 1.1rem;
+    margin: 0.4rem;
+    color: #557570;    
+}
+
+#logo-menu{
+    width: 18vh;
+    height: 15vh;
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 1.1vh;
+    cursor: pointer;
+}
+
+.forms{
+    margin-bottom: 2rem;
+    display: flex;
+    
+}
+
+.forms a:hover  { 
+    color:#D39A89;    
+}
+
+.search-box{
+    position: absolute;
+    background: #f3fafe;
+    height: 35px;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    top: 13%;
+    left: 29%;
+    align-items: center;
+}
+
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    width: 0;
+    padding: 0;  
+    transition: 0.4s;
+}
+
+#lupa{
+    width: 3%;
+    height: 2%;
+    color: #F7D1BA;
+}
+
+.search-btn{
+    height: 5vh;
+    padding-left: 15%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-box:hover  > .search-text{
+    width: 73vh;
+}
+
+hr{
+    margin: 0px 15px 0px 15px;
+    position: relative;
+    border-top: 0.2rem solid #000000;  
+}
+
+/*menu2 ate a linha 165*/
+
+.menu2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    column-count: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menu2 > ul {
+    margin: 0 auto 0.4rem;
+  }
+
+.menu2 li{
+    padding-top: 0.9rem;
+    padding: 0.7rem;
+}
+
+.menu2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu2 a{
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    color: #fff;   
+}
+
+.menu2 a::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #F1BEBE;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+.menu2 a:hover::after {
+    transform: scaleX(1);
+}
+
+.img-menu{
+    padding: 1rem;
+    padding-right: 4rem;
+}
+
+.img-menu img{
+    height: 1.5rem;
+    
+}
+
+.img-menu img:hover{
+    height: 1.8rem;
+    transition: 0.3s;
+}
+
+/* Textos */
+
+.titulo {
+    padding: 20px;
+    font-family: 'Baskerville', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+}
+
+.title {
+    vertical-align: top;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-family: 'Baskerville', sans-serif;
+}
+
+.intro-texto {
+    font-family: 'Baskerville', sans-serif;
+    font-family: Playfair Display SC;
+    text-align: center;
+    font-size: 15px;
+
+}
+.intro-texto1 {
+    font-family: 'Baskerville', sans-serif;
+    font-family: Playfair Display SC;
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 15px;
+
+}
+
+/* Textos */
+
+
+.imagem-titulo {
+    vertical-align: middle;
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.titulo-livros {
+    margin-left: 60px;  
+    font-family: 'Baskerville', sans-serif;
+}
+
+.titulo-livros-rep {
+    margin-left: 60px;  
+    margin-bottom: 20px;
+    font-family: 'Baskerville', sans-serif;
+}
+
+/*Livros*/
+.Livro-repertorio h2{
+    padding-top: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.7em;
+}
+
+.Livro-redaçao h2{
+    padding-top: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.7em;
+}
+
+.livro{
+   display: inline-block;
+   padding-left: 1.9em;
+   padding-right: 1.9em;
+   padding-bottom: 3rem;
+}
+
+#livrored-esquerda{
+    padding-left: 6.1em;
+}
+
+#livrorep-esquerda{
+    padding-left: 6.1em;
+}
+
+.livro img{
+    box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    height:41vh;
+    transition : 0.8s;
+}
+
+.livro img:hover{
+    transition: 1s;
+    height: 45vh;
+}
+
+.livro button{
+    font-family: Playfair Display SC;
+    font-weight: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #a5c5b0;
+    padding: 0 1.6rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    border-radius: 8em;
+    transition : 0.8s;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: .9rem;
+    margin-left: 2.1rem;
+}
+
+.livro button:hover{  
+    transition : .8s;
+    padding: .4rem 1rem;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #a5c5b0;
+    border: solid 1px #f1bebe;
+}
+
+.sh{
+    margin-right: 0rem;
+    margin-left: 0;
+}
+
+.livro p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+/*Livros*/
+
+
+/*Footer1 ate a linha */
+
+.footer1{
+    box-sizing: border-box;
+    background-color: #A5C5B0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.footer-list{
+    text-align: center;
+}
+
+.footer-list li{
+    display: inline;
+}
+
+.logo-footer{
+    width: 18vh;
+    padding-bottom: 1.1vh;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.footer1 ul {
+    list-style: none;
+    
+}
+
+.footer1 a {
+    text-decoration:none;
+    color: #000000;
+    letter-spacing: 0.1rem; 
+    font-size: 1.1rem;
+    margin: 0.6rem;
+}
+
+.footer1 a:hover  { 
+    color:#D39A89;    
+}
+
+.sociais{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.sociais img{
+    height: 2rem;
+    vertical-align: 0;
+}
+
+.sociais img:hover{
+    height: 2.2rem;
+    transition: 0.3s;
+}
+
+/*Footer2 ate a linha */
+
+.footer2{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #557570;
+    justify-content: center;
+    padding-top: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+
+.footer2 i{
+    padding-top: 0.3rem;
+    padding-right: 1rem;
+}
+
+/*Setinha para cima ate a linha */
+
+.voltar-topo {
+    position: fixed;
+    right: 1rem;
+    bottom: 0.8rem;
+    padding: 0.3rem;
+    font-size: 2rem;
+    line-height: 0;
+    transition: 0.3s;
+    color: #F1BEBE;
+}
+
+.voltar-topo i:hover  { 
+    color:#D39A89;    
+}
