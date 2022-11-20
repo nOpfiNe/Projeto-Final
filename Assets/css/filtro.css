@@ -164,7 +164,7 @@ hr{
     color: #fff;   
 }
 
-.transition a::after {
+.menu2 a::after {
     content: "";
     display: block;
     border-bottom: 3px solid #F1BEBE;
