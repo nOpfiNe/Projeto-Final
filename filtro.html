@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="logo icon" href="menu/logo.png" >
+    <link rel="logo icon" href="./Imagens/menu/logo.png" >
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 
     <!-- Bootstrap --> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="css/filtro.css" rel="stylesheet"></link>
+    <link href="./Assets/css/filtro.css" rel="stylesheet"></link>
 
     <!-- Scripts -->
     <script
@@ -29,14 +29,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- Progressbar -->
-    <script src="js/progressbar.min.js"></script>
+    <script src="./Assets/js/progressbar.min.js"></script>
 </head>
 
 <body>
     <header id="home">  
         
         <nav class="menu1">
-            <img href="#home" id="logo-menu" src="menu/logo.png" alt="Logo">
+           <a href="index.html"> <img id="logo-menu" src="./Imagens/menu/logo.png" alt="Logo"> </a>
 
             <div class="search-box">
                 <input type="text" class="search-text" placeholder="Pesquisar..."></input>
@@ -55,17 +55,16 @@
         <hr>
 
         <nav class="menu2">
-            <ul>
-                <li><a id="" href="#home">Home</a></li>
-                <li><a id="" href="">Livros</a></li>
-                <li><a id="" href="">Quem somos</a></li>
-                <li><a id="" href="">Dicas de redação</a></li>
+            <ul class="transition">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="">Quem somos</a></li>
+                <li><a   href="redacao.html">Dicas de redação</a></li>
                 
             </ul>
 
             <div class="img-menu">
-                <img href="" src="menu/filtro.png" alt="Filtro">
-                <img href="" src="menu/coracao.png" alt="Favoritos">
+                <a href="filtro.html"><img  src="./Imagens/menu/filtro.png" alt="Filtro"></a>
+                <a href=""><img src="./Imagens/menu/coracao.png" alt="Favoritos"></a>
             </div>
         </nav>            
     </header>  
@@ -95,14 +94,14 @@
 
         <div class="livro rom" id="livrorom-esquerda">
             <span>
-                <img href="" class="" src="imagens/amor_&_gelato.jpg" alt="livro-romance">
+                <a href="Romance1.html"><img class="" src="imgs livros/Amor & gelato.jpg" alt="livro-romance"></a>
             </span>
     
             <div>
                 <strong><p>Amor & Gelato</p></strong>
                 <p>Jenna Evans Welch</p>
             </div>
-            <button type="autofocus">Ver Livro</button>
+            <button class="button"><a href="Romance1.html">Ver Livro</a></button>
         </div>
 
         <div class="livro rom">
@@ -509,20 +508,19 @@
 
     <footer>
         <div class="footer1">
-            <img href="#home" class="logo-footer" src="menu/logo.png" alt="Logo">
+            <img href="index.html" class="logo-footer" src="./Imagens/menu/logo.png" alt="Logo">
             <nav class="footer-list">
                 <ul>
-                    <li><a id="h" href="#home">Home</a></li>
-                    <li><a id="l" href="">Livros</a></li>
+                    <li><a id="h" href="index.html">Home</a></li>
                     <li><a id="qs" href="">Quem somos</a></li>
-                    <li><a id="ds" href="">Dicas de redação</a></li>
+                    <li><a id="ds" href="redacao.html">Dicas de redação</a></li>
                 </ul>
             </nav>
 
             <div class="sociais">
-                <img href="" class="" src="footer/mail.png" alt="Email">
-                <img href="" class="" src="footer/github.png" alt="Github">
-                <img href="" class="" src="footer/instagram.png" alt="Instagram">
+                <img href="" class="" src="./Imagens/footer/mail.png" alt="Email">
+                <img href="" class="" src="./Imagens/footer/github.png" alt="Github">
+                <img href="" class="" src="./Imagens/footer/instagram.png" alt="Instagram">
             </div>
         </div>
 
@@ -534,7 +532,9 @@
 
     <a href="#home" class="voltar-topo"> <i class="fa-solid fa-arrow-up"></i></a>
 
-    <script src="js/filtro.js"></script>
+    <script src="./Assets/js/index.js"></script>
+
+    <script src="./Assets/js/filtro.js"></script>
 
 </body>
 </html>
