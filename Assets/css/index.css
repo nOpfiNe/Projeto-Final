@@ -492,52 +492,6 @@ hr{
     margin-bottom: 0;
 }
 
-/*Seção de Livros ate a linha */
-
-.caixa-livro{
-    height: 110vh;
-    margin-bottom: 6em;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.caixa-livro h1{
-    
-    padding-top: 2.3rem;
-    padding-left: 2rem;
-    letter-spacing: 0.1rem;
-    margin: 0.4rem;
-    font-size: 2.2rem;
-    display: inline-block;
-}
-
-
-.livros img{
-    display: inline-block;
-    width: 10%;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 6px 6px 6px;
-}
-
-.estante{
-    border: 3px solid white;
-    border-radius: 0.2rem;
-    height: 2.9vh;
-    background-color: white;
-    margin: 0 4em 0 29em;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    
-}
-
-.estante2{
-    border: 3px solid white;
-    border-radius: 0.2rem;
-    height: 2.9vh;
-    background-color: white;
-    margin: 0 31em 0 4em;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
 
 /*Footer1 ate a linha */
 
