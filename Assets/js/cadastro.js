@@ -82,13 +82,6 @@ confirmSenha.addEventListener('keyup', () => {
   }
 })
 
-function cadastar(){
-  if(validNome && validUsuario && validSenha && validConfirmSenha){
-    
-  } else{
-    
-  }
-}
 
 btn.addEventListener('click', ()=>{
   let inputSenha = document.querySelector('#senha')
