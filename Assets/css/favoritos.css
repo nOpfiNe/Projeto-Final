@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
-
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+    margin: 0;
 }
-
 
 /*menu1 ate a linha 98*/
 
@@ -113,7 +108,6 @@ hr{
     align-items: flex-start;
     justify-content: space-evenly;
     column-count: 2;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .menu2 > ul {
@@ -166,65 +160,7 @@ hr{
     transition: 0.3s;
 }
 
-/* Textos */
-
-.titulo {
-    padding: 20px;
-    font-family: 'Baskerville', sans-serif;
-    display: flex;
-    align-items: center;
-    padding-left: 170px;
-}
-
-.title {
-    vertical-align: top;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    font-family: 'Baskerville', sans-serif;
-}
-
-.intro-texto {
-    font-family: 'Baskerville', sans-serif;
-    font-family: Playfair Display SC;
-    text-align: center;
-    font-size: 15px;
-
-}
-.intro-texto1 {
-    font-family: 'Baskerville', sans-serif;
-    font-family: Playfair Display SC;
-    text-align: center;
-    padding-bottom: 80px;
-    font-size: 15px;
-
-}
-
-/* Textos */
-
-
-.imagem-titulo {
-    vertical-align: middle;
-    max-width:300px;
-    max-height:250px;
-    width: auto;
-    height: auto;
-}
-
-.titulo-livros {
-    margin-left: 60px;  
-    font-family: 'Baskerville', sans-serif;
-}
-
-.titulo-livros-rep {
-    margin-left: 60px;  
-    margin-bottom: 20px;
-    font-family: 'Baskerville', sans-serif;
-}
-
-/*Livros*/
-.Livro-repertorio h2{
+h1{
     padding-top: 2.3rem;
     text-align: center;
     letter-spacing: 0.1rem;
@@ -233,31 +169,19 @@ hr{
     padding-bottom: 1.7em;
 }
 
-.Livro-redaçao h2{
-    padding-top: 2.3rem;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    margin: 0.4rem;
-    font-size: 2.2rem;
-    padding-bottom: 1.7em;
-}
-
-.livro{
+.livros{
    display: inline-block;
    padding-left: 1.9em;
    padding-right: 1.9em;
-   padding-bottom: 3rem;
+   margin-top: 4em;
+   margin-bottom: 4em;
 }
 
-#livrored-esquerda{
-    padding-left: 6.1em;
+#livrop-esquerda{
+    padding-left: 7.2em;
 }
 
-#livrorep-esquerda{
-    padding-left: 6.1em;
-}
-
-.livro img{
+.livros img{
     box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     margin-bottom: 0.8rem;
     cursor: pointer;
@@ -265,52 +189,112 @@ hr{
     transition : 0.8s;
 }
 
-.livro img:hover{
+.livros img:hover{
     transition: 1s;
     height: 45vh;
 }
 
-.livro button{
-    font-family: Playfair Display SC;
-    font-weight: 0;
-    font-size: 0.9rem;
+.livros a{
+    text-decoration:none; 
+    list-style: none;
     color: #fff;
-    background-color: #a5c5b0;
-    padding: 0 1.6rem;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
-    border-radius: 8em;
-    transition : 0.8s;
-    transform: translateY(0);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    margin-top: .9rem;
-    margin-left: 2.1rem;
 }
 
-.livro button:hover{  
-    transition : .8s;
-    padding: .4rem 1rem;
-    transform : translateY(-0px);
-    background-color: #fff;
+.livros a:hover{  
     color: #a5c5b0;
-    border: solid 1px #f1bebe;
+   
 }
 
-.sh{
-    margin-right: 0rem;
-    margin-left: 0;
-}
-
-.livro p{
+.livros p{
     text-align: center;
     font-size: .9rem;
     margin-bottom: 0;
 }
-/*Livros*/
 
+#livroep-esquerda{
+    padding-left: 7.2em;
+}
+
+#coração:hover{
+    color: #F1BEBE;
+}
+
+#coração1:hover{
+    color: #F1BEBE;
+}
+
+#coração2:hover{
+    color: #F1BEBE;
+}
+
+#coração3:hover{
+    color: #F1BEBE;
+}
+
+#coração4:hover{
+    color: #F1BEBE;
+}
+
+#coração5:hover{
+    color: #F1BEBE;
+}
+
+#coração6:hover{
+    color: #F1BEBE;
+}
+
+#coração7:hover{
+    color: #F1BEBE;
+}
+
+#coração8:hover{
+    color: #F1BEBE;
+}
+
+#coração9:hover{
+    color: #F1BEBE;
+}
+
+
+button{
+
+font-family: Lato;
+font-weight: 0;
+font-size: 16px;
+color: #fff;
+background-color: #a5c5b0;
+padding: 3px 28px;
+border: solid #a5c5b0 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 25px;
+transition : 758ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin-top: .9rem;
+margin-left: 1.4rem;
+}
+
+button:hover{
+
+transition : 758ms;
+padding: 6px 49px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #a5c5b0;
+border: solid 2px #a5c5b0;
+}
+
+a{
+    color: #fff;
+}
+    
+a:hover{
+    color: #A5C5B0;
+}
+    
 
 /*Footer1 ate a linha */
 

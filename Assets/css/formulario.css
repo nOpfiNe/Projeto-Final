@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 #titulo{
     font-family: sans-serif;
     margin-left: 7%;
@@ -13,10 +15,10 @@ fieldset {
 }
 
 body{
-    background-color: #8cc5b1;
+    background-color: #F7D1BA;
     font-family: sans-serif;
     font-size: 1em;
-    color: #000000;
+    color: #557570;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -32,7 +34,7 @@ input, select, textarea, button{
 
 .campo label{
     margin-bottom: 0.2em;
-    color: #000000;
+    color: #557570;
     display: block;
 }
 
@@ -58,13 +60,14 @@ fieldset.grupo .campo{
 
 .botao {
     font-size: 1.2em;
-    background: #000000;
+    background: #557570;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
     top: 90%;
     left: 50%;
     margin-right: 50%;
@@ -72,34 +75,11 @@ fieldset.grupo .campo{
 }
 
 .botao:hover{
-    background: #2b7458;
+    background: #ccbbff;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
-}
-#div-botao{
-    position: absolute;
-    bottom: -40px;
-    height: 10px;
-    right: 40%;
 }
 
 #check{
     display: inline-block;
-}
-
-
-@media screen and (max-width: 1064px) {
-
-    body{
-        align-items: center;
-        margin-top: 40px;
-        position: relative;
-        right: 120px;
-     }
-     #div-botao{
-        position: absolute;
-        bottom: -40px;
-        height: 10px;
-        left: 75%;
-    }
 }
