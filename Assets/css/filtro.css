@@ -164,7 +164,7 @@ hr{
     color: #fff;   
 }
 
-.transition a::after {
+.menu2 a::after {
     content: "";
     display: block;
     border-bottom: 3px solid #F1BEBE;
@@ -439,4 +439,25 @@ hr{
 
 .voltar-topo i:hover  { 
     color:#D39A89;    
+}
+
+
+/* Responsivo */
+
+@media(max-width:768px) {
+
+    /* Geral*/
+    .container{
+        padding: 20px 0;
+
+    }
+}
+
+@media(max-width:425px) {
+
+    /* Geral*/
+    .container{
+        padding: 20px 0;
+        
+    }
 }
