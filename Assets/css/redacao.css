@@ -404,21 +404,3 @@ hr{
     color:#D39A89;    
 }
 
-@media screen and (max-width: 999px) {
-    body{
-        overflow-x: hidden;
-    }
-    .forms{
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .container {
-        width: 50%;
-    }
-}
