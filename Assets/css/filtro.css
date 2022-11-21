@@ -454,10 +454,15 @@ hr{
 }
 
 @media(max-width:425px) {
-
-    /* Geral*/
     .container{
         padding: 20px 0;
-        
+    }
+
+    #portifolio-area .filter-btn{
+        margin-bottom: 20px;
+    }
+
+    .project-box{
+        max-width: 50%;
     }
 }
