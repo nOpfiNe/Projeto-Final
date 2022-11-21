@@ -189,10 +189,6 @@ hr{
    padding-right: 1.9em;
 }
 
-#livrop-esquerda{
-    padding-left: 7.2em;
-}
-
 .livrop img{
     box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     margin-bottom: 0.8rem;
@@ -284,10 +280,6 @@ hr{
    padding-right: 1.9em;
 }
 
-#livroep-esquerda{
-    padding-left: 7.2em;
-}
-
 .livroep img{
     box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     margin-bottom: 0.8rem;
@@ -357,10 +349,6 @@ hr{
     text-decoration:none; 
     list-style: none;
     color: #fff;
-}
-
-#livroi-esquerda{
-    padding-left: 6.1em;
 }
 
 .livroi img{
@@ -438,10 +426,6 @@ hr{
    padding-left: 1.9em;
    padding-right: 1.9em;
    padding-bottom: 3rem;
-}
-
-#livrod-esquerda{
-    padding-left: 6em;
 }
 
 .livrod img{
